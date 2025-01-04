@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Muhammad Shayan Haider</title>
+    <link rel="icon" href="Images/image4.jpeg" type="image/x-icon">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="home">
+        <div class="header-content">
+            <a href="https://www.linkedin.com/in/muhammad-shayan-haider-3781ab2b1/"><img src="Images/image4.jpeg  " alt="Logo" class="logo"></a>
+            <h1>Muhammad Shayan Haider</h1>
+            <h2>Frontend Developer</h2>
+        </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#education">Education</a>
+            <a href="#gallery">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home-section" class="section">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hi, I'm Shayan Haider, a passionate Frontend Developer dedicated to crafting visually stunning and user-friendly web interfaces. I specialize in HTML, CSS, and JavaScript, creating seamless and responsive designs that bring ideas to life. With a keen eye for detail and a love for coding, I aim to deliver exceptional user experiences. Welcome to my portfolio—let's create something amazing together!</p>
+            <div class="cta-buttons">
+                <button class="hire-me" onclick="hireMe()">Hire Me</button>
+                <button class="talk-me" onclick="redirectToContact()">Let's Talk</button>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h1>Education</h1>
+            <h2>Primary Education:</h2>
+            <p>I completed my primary education at The Ambience School, which is located near my residence. During my time there, I developed a strong foundation in basic subjects and grew a passion for learning, which set the stage for my future academic journey.</p>
+            <br>
+            <h2>Secondary Education:</h2>
+            <p>For my secondary education, I attended The Gulshan College For Science and Commerce. This phase was pivotal in shaping my academic interests, and I was able to explore a variety of subjects. My dedication to studies and extracurricular activities helped me develop critical thinking and problem-solving skills.</p>
+            <br>
+            <h2>Higher Education</h2>
+            <p>I am currently pursuing my higher education at Sir Syed University Of Engineering and Technology, where I am majoring in Computer Science. During this time, I am expanding my knowledge in [specific subjects or areas], honing my skills, and preparing myself for a career in Computer Science. My experience at university is proving to be an enriching one, continuously laying the foundation for my professional path.</p>
+        </section>
+
+        <hr>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <h2>My Projects:</h2>
+            <div class="gallery-grid">
+                <img src="Images/image1.png" alt="To-Do List">
+                <img src="Images/image2.png" alt="Calculator">
+                <img src="Images/image3.png" alt="E-Commerece Website">
+            </div>
+        </section>
+
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="caption"></div>
+        </div>
+
+        <hr>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello, I'm Shayan Haider, a passionate and driven Frontend Developer with a strong interest in building visually appealing and user-friendly websites. My journey into web development started from a love for design and technology, which eventually led me to pursue coding. I am currently honing my skills in HTML, CSS, JavaScript, and various frontend frameworks to craft responsive and dynamic web experiences.
+
+                I enjoy turning complex problems into simple, intuitive designs that deliver real value to users. Outside of coding, I love exploring the latest trends in web development, learning new technologies, and continually challenging myself to improve. I believe in continuous learning, and I'm always excited to work on projects that allow me to grow both as a developer and as a creative problem solver. Let's build something amazing together!</p>
+        </section>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me on <a href="https://www.linkedin.com/in/muhammad-shayan-haider-3781ab2b1/">LinkedIn</a> or <a href="https://github.com/ShayanHaider0">GitHub</a>.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Shayan Haider. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
